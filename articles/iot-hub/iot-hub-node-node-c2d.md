@@ -87,10 +87,10 @@ In this section, you create a Node.js console app that sends cloud-to-device mes
     npm init
     ```
 
-2. At your command-prompt in the **sendcloudtodevicemessage** folder, run the following command to install the **azure-iothub** package:
+2. At your command-prompt in the **sendcloudtodevicemessage** folder, run the following command to install the **azure-iothub** and **azure-iot-common** packages:
 
     ```
-    npm install azure-iothub --save
+    npm install azure-iothub azure-iot-common --save
     ```
 
 3. Using a text editor, create a new **SendCloudToDeviceMessage.js** file in the **sendcloudtodevicemessage** folder.
